@@ -1,0 +1,16 @@
+#폴더밖에만들기
+
+###################################################
+INCLUDE=#include "pch.h"
+
+FUNCCPPPATH=	..\myFuncCPP.txt
+FUNCHPATH=	..\myFuncH.txt
+DEFINEPATH=	..\myDefine.txt
+
+####################################################
+TYPE=ALL
+SOURCE=..\enumh.txt
+TYPE=ALL
+SOURCE=..\enumh2.txt
+TARGET=..\AAAAAAAAAAA.txt
+#####################################################

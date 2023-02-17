@@ -1,0 +1,17 @@
+#TARGET은 반드시 마지막에 와야합니다.
+#SOURCE 와 TYPE은 여러번 사용할수있습니다.
+
+###################################################
+INCLUDE=#include "pch.h"
+
+FUNCCPPPATH=myFuncCPP.txt
+FUNCHPATH=myFuncH.txt
+DEFINEPATH=myDefine.txt
+
+####################################################
+TYPE=RS_TYPE,  PROJ_TYPE, LEVEL_STATE
+SOURCE=enumh.txt
+TYPE=ALL
+SOURCE=enumh2.txt
+TARGET=myExtern.txt
+#####################################################

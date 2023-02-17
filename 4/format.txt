@@ -1,0 +1,31 @@
+#TARGET또한 여러곳에지정할수있습니다.
+#중복선언주의!
+
+###################################################
+INCLUDE=#include "pch.h"
+
+FUNCCPPPATH=myFuncCPP.txt
+FUNCHPATH=myFuncH.txt
+DEFINEPATH=myDefine.txt
+
+####################################################
+TYPE=RS_TYPE,  PROJ_TYPE, LEVEL_STATE
+SOURCE=enumh.txt
+TARGET=myExtern.txt
+#####################################################
+
+####################################################
+TYPE=ALL
+SOURCE=enumh.txt
+TYPE=ALL
+SOURCE=enumh2.txt
+TARGET=AAAAAAAAAAA.txt
+#####################################################
+
+####################################################
+TYPE=AUTO
+SOURCE=enumh.txt
+TYPE=ALL
+SOURCE=enumh2.txt
+TARGET=AAAAAAAAAAA.txt
+#####################################################

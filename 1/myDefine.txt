@@ -1,0 +1,45 @@
+﻿#pragma once
+
+
+extern const char* COMPONENT_TYPE_STR[(UINT)COMPONENT_TYPE::SCRIPT + 1];
+extern const wchar_t* COMPONENT_TYPE_WSTR[(UINT)COMPONENT_TYPE::SCRIPT + 1];
+
+extern const char* RES_TYPE_STR[(UINT)RES_TYPE::END + 1];
+extern const wchar_t* RES_TYPE_WSTR[(UINT)RES_TYPE::END + 1];
+
+extern const char* CB_TYPE_STR[(UINT)CB_TYPE::END + 1];
+extern const wchar_t* CB_TYPE_WSTR[(UINT)CB_TYPE::END + 1];
+
+extern const char* DIR_TYPE_STR[(UINT)DIR_TYPE::FRONT + 1];
+extern const wchar_t* DIR_TYPE_WSTR[(UINT)DIR_TYPE::FRONT + 1];
+
+extern const char* PROJ_TYPE_STR[(UINT)PROJ_TYPE::PERSPECTIVE + 1];
+extern const wchar_t* PROJ_TYPE_WSTR[(UINT)PROJ_TYPE::PERSPECTIVE + 1];
+
+extern const char* RS_TYPE_STR[(UINT)RS_TYPE::END + 1];
+extern const wchar_t* RS_TYPE_WSTR[(UINT)RS_TYPE::END + 1];
+
+extern const char* DS_TYPE_STR[(UINT)DS_TYPE::END + 1];
+extern const wchar_t* DS_TYPE_WSTR[(UINT)DS_TYPE::END + 1];
+
+extern const char* BS_TYPE_STR[(UINT)BS_TYPE::END + 1];
+extern const wchar_t* BS_TYPE_WSTR[(UINT)BS_TYPE::END + 1];
+
+extern const char* SHADER_DOMAIN_STR[(UINT)SHADER_DOMAIN::DOMAIN_UNDEFINED + 1];
+extern const wchar_t* SHADER_DOMAIN_WSTR[(UINT)SHADER_DOMAIN::DOMAIN_UNDEFINED + 1];
+
+extern const char* EVENT_TYPE_STR[(UINT)EVENT_TYPE::LEVEL_CHANGE + 1];
+extern const wchar_t* EVENT_TYPE_WSTR[(UINT)EVENT_TYPE::LEVEL_CHANGE + 1];
+
+extern const char* SHAPE_TYPE_STR[(UINT)SHAPE_TYPE::END + 1];
+extern const wchar_t* SHAPE_TYPE_WSTR[(UINT)SHAPE_TYPE::END + 1];
+
+extern const char* COLLIDER2D_TYPE_STR[(UINT)COLLIDER2D_TYPE::CIRCLE + 1];
+extern const wchar_t* COLLIDER2D_TYPE_WSTR[(UINT)COLLIDER2D_TYPE::CIRCLE + 1];
+
+extern const char* LIGHT_TYPE_STR[(UINT)LIGHT_TYPE::SPOT + 1];
+extern const wchar_t* LIGHT_TYPE_WSTR[(UINT)LIGHT_TYPE::SPOT + 1];
+
+extern const char* LEVEL_STATE_STR[(UINT)LEVEL_STATE::STOP + 1];
+extern const wchar_t* LEVEL_STATE_WSTR[(UINT)LEVEL_STATE::STOP + 1];
+
